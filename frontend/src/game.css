@@ -1,0 +1,68 @@
+.container {
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cell {
+    height: 18vh;
+    width: 19vw;
+    border: 5px solid white;
+}
+
+.cell:hover {
+    cursor: crosshair;
+}
+
+.symbol {
+    font-size: 60px;
+    text-align: center;
+}
+
+.playstop {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    cursor: wait;
+}
+
+.gameover {
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .container {
+        height: 50vh;
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 515px) {
+
+    .container {
+        height: 40vh;
+        width: 60vw
+    }
+
+    .cell {
+        height: 12vh;
+        width: 8vh
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+        height: 40vh;
+        width: 70vw
+
+    }
+}
