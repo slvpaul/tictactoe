@@ -1,9 +1,1 @@
-This project is a Tic-Tac-Toe game that was built using a combination of technologies to create a seamless user experience. The frontend of the game was built using React, which was served using Nginx web server. The backend of the game was built using Node.js with the socket.io library for real-time communication between players. To ensure scalability and ease of deployment, the entire project was containerized using Docker.
-
-The frontend of the game was built using React, a popular JavaScript library for building user interfaces. It was designed to be responsive and user-friendly, allowing players to easily navigate the game and make their moves. The Nginx web server was used to serve the React application, providing a reliable and fast connection to the game.
-
-The backend of the game was built using Node.js, a popular JavaScript runtime environment, and the socket.io library, which was used to handle real-time communication between players. This allowed players to play the game in real-time, without any delays or lag.
-
-To ensure scalability and ease of deployment, the entire project was containerized using Docker. This allows the project to be easily deployed to different environments, without the need to worry about compatibility issues. The use of Docker also makes it easy to scale the application, as new instances of the application could be easily added to handle an increase in traffic.
-
-Overall, the project was a success, providing a fun and engaging Tic-Tac-Toe game with a responsive and user-friendly interface. The use of Nginx, Node.js, socket.io, and Docker ensured that the game was scalable, easy to deploy, and provided a real-time experience to players.
+This project is a Tic-Tac-Toe game written in React on the frontend. The backend of the game was built using Node.js with the socket.io library for real-time communication between players. It uses nginx as a web server and the entire project was containerized using Docker.
